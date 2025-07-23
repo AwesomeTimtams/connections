@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import Connections from './Connections.js';
+import Game from './Game.js';
 
 function App() {
   return (
-    <Connections></Connections>
+    <div className="App">
+      <Game />
+    </div>
   );
 }
 
