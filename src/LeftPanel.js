@@ -15,6 +15,7 @@ export default function LeftPanel({ onSubmit }) {
           <span className="mode-icon">🏋️</span> PRACTICE
         </button>
       </div>
+      <div className="spacer"></div>
       <div className="action-buttons">
         <button className="submit-button" onClick={onSubmit}>
           SUBMIT?

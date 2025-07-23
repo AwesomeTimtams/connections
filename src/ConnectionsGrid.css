@@ -5,7 +5,7 @@
 }
 
 .game-title {
-  font-size: 2.5rem;
+  font-size: 4rem;
   font-weight: 800;
   color: #0052cc;
   margin: 0 0 15px 0;
@@ -35,23 +35,15 @@
   align-items: center;
 }
 
-.board {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 80px);
-  gap: 15px;
-  width: 100%;
-  max-width: 600px;
-}
-
 .tile {
   background: #e0e0e0;
   border-radius: 12px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.8rem;
+  letter-spacing: 0.02em;
+  font-weight: lighter;
   text-transform: uppercase;
   cursor: pointer;
   user-select: none;
@@ -77,8 +69,7 @@
 /* --- ADDED MESSAGE BAR STYLE --- */
 .message-bar {
   min-height: 24px;
-  font-size: 1.1rem;
-  font-weight: bold;
+  font-size: 1.4rem;
   margin-bottom: 20px;
   text-align: center;
 }
