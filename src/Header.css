@@ -64,11 +64,8 @@
   height: 100%;
   background-color: #007bff;
   border-radius: 3px;
-}```
+}
 
-#### `LeftPanel.css` (New)
-
-```css
 .left-panel {
   background-color: white;
   border-radius: 16px;

@@ -1,59 +1,149 @@
 [
   {
-    "id": "university_and_professions_1",
+    "id": "stem_and_tech_1",
     "categories": [
       {
-        "name": "MEDICAL PROFESSIONS",
-        "words": ["SURGEON", "NURSE", "DOCTOR", "PARAMEDIC", "PSYCHOLOGIST", "DENTIST", "OPTOMETRIST"]
+        "name": "ENGINEERING MAJORS",
+        "words": ["MECHANICAL", "CIVIL", "ELECTRICAL", "CHEMICAL", "AEROSPACE", "BIOMEDICAL", "SOFTWARE", "INDUSTRIAL", "ENVIRONMENTAL"]
       },
       {
-        "name": "ACADEMIC DEGREES",
-        "words": ["BACHELOR", "MASTERS", "DOCTORATE", "ASSOCIATE", "PHD", "MBA"]
+        "name": "TECH CAREERS",
+        "words": ["DEVELOPER", "ENGINEER", "ANALYST", "ADMINISTRATOR", "DESIGNER", "MANAGER", "SCIENTIST", "SPECIALIST"]
       },
       {
-        "name": "EDUCATIONAL ROLES",
-        "words": ["TUTOR", "LECTURER", "PROFESSOR", "DEAN", "TEACHER", "ADVISOR", "PROVOST"]
+        "name": "PROGRAMMING LANGUAGES",
+        "words": ["PYTHON", "JAVA", "JAVASCRIPT", "SWIFT", "RUST", "SQL", "HTML", "CSS", "KOTLIN", "PHP"]
       },
       {
-        "name": "CONSTRUCTION TRADES",
-        "words": ["PLUMBER", "ELECTRICIAN", "CARPENTER", "MASON", "WELDER", "PAINTER"]
+        "name": "MATH & PHYSICS CONCEPTS",
+        "words": ["ALGEBRA", "CALCULUS", "VECTOR", "MATRIX", "VELOCITY", "FORCE", "ENERGY", "MOMENTUM", "GRAVITY", "DERIVATIVE"]
       },
       {
-        "name": "LEGAL CAREERS",
-        "words": ["JUDGE", "LAWYER", "PARALEGAL", "ATTORNEY", "PROSECUTOR", "SOLICITOR"]
+        "name": "SCIENCE MAJORS",
+        "words": ["BIOLOGY", "CHEMISTRY", "PHYSICS", "GEOLOGY", "ASTRONOMY", "ECOLOGY", "GENETICS", "NEUROSCIENCE", "BOTANY"]
       },
       {
-        "name": "FINANCIAL ROLES",
-        "words": ["ACCOUNTANT", "AUDITOR", "ANALYST", "BANKER", "TRADER", "BROKER"]
+        "name": "ROLES ON A TECH TEAM",
+        "words": ["SCRUM MASTER", "PRODUCT OWNER", "QA TESTER", "UI DESIGNER", "UX RESEARCHER", "DEVOPS ENGINEER", "PROJECT MANAGER"]
+      },
+      {
+        "name": "UNIVERSITY SCIENCE COURSES",
+        "words": ["ORGANIC CHEMISTRY", "QUANTUM MECHANICS", "THERMODYNAMICS", "ELECTROMAGNETISM", "CELL BIOLOGY", "STATISTICS", "DATA STRUCTURES"]
+      },
+      {
+        "name": "COMPUTER HARDWARE",
+        "words": ["CPU", "GPU", "RAM", "MOTHERBOARD", "SSD", "PSU", "MONITOR", "KEYBOARD", "MOUSE"]
       }
     ]
   },
   {
-    "id": "university_and_professions_2",
+    "id": "business_and_law_1",
     "categories": [
       {
-        "name": "ENGINEERING FIELDS",
-        "words": ["MECHANICAL", "CIVIL", "SOFTWARE", "CHEMICAL", "AEROSPACE", "ELECTRICAL", "BIOMEDICAL"]
+        "name": "BUSINESS MAJORS",
+        "words": ["FINANCE", "ACCOUNTING", "MARKETING", "MANAGEMENT", "ECONOMICS", "LOGISTICS", "ENTREPRENEURSHIP", "HUMAN RESOURCES"]
       },
       {
-        "name": "TERMS IN ACADEMIA",
-        "words": ["TENURE", "SYLLABUS", "THESIS", "SEMESTER", "DISSERTATION", "CREDIT", "MAJOR"]
+        "name": "FINANCIAL CAREERS",
+        "words": ["ACCOUNTANT", "BANKER", "ANALYST", "TRADER", "BROKER", "AUDITOR", "ADVISOR", "INVESTOR", "CONTROLLER"]
       },
       {
-        "name": "CREATIVE PROFESSIONS",
-        "words": ["DESIGNER", "WRITER", "PAINTER", "MUSICIAN", "ACTOR", "DIRECTOR", "PHOTOGRAPHER"]
+        "name": "LEGAL PROFESSIONS",
+        "words": ["LAWYER", "JUDGE", "PARALEGAL", "PROSECUTOR", "ATTORNEY", "SOLICITOR", "ADVOCATE", "CLERK"]
       },
       {
-        "name": "IT SPECIALIZATIONS",
-        "words": ["DATABASE", "NETWORK", "SECURITY", "CLOUD", "DEVOPS", "FRONTEND", "BACKEND"]
+        "name": "MARKETING CONCEPTS",
+        "words": ["BRAND", "LOGO", "CAMPAIGN", "STRATEGY", "SEO", "SOCIALS", "INFLUENCER", "ANALYTICS", "TARGET"]
       },
       {
-        "name": "SOCIAL SCIENCE FIELDS",
-        "words": ["SOCIOLOGY", "ANTHROPOLOGY", "ECONOMICS", "POLITICAL", "GEOGRAPHY", "LINGUISTICS"]
+        "name": "TYPES OF BUSINESS",
+        "words": ["STARTUP", "CORPORATION", "PARTNERSHIP", "NONPROFIT", "FRANCHISE", "SOLE PROPRIETORSHIP", "LLC"]
       },
       {
-        "name": "EMERGENCY SERVICES",
-        "words": ["PARAMEDIC", "FIREFIGHTER", "POLICE", "DISPATCHER", "SERGEANT", "DETECTIVE"]
+        "name": "UNIVERSITY LAW COURSES",
+        "words": ["CONTRACTS", "TORTS", "CRIMINAL", "CONSTITUTIONAL", "PROPERTY", "EVIDENCE", "ETHICS", "CIVIL PROCEDURE"]
+      },
+      {
+        "name": "ECONOMIC TERMS",
+        "words": ["INFLATION", "RECESSION", "SUPPLY", "DEMAND", "GDP", "INTEREST", "CAPITAL", "MARKET", "TRADE"]
+      },
+      {
+        "name": "COMPANY DEPARTMENTS",
+        "words": ["SALES", "MARKETING", "FINANCE", "OPERATIONS", "IT", "HR", "LEGAL", "R&D", "SUPPORT"]
+      }
+    ]
+  },
+  {
+    "id": "creative_and_humanities_1",
+    "categories": [
+      {
+        "name": "ARTS & DESIGN MAJORS",
+        "words": ["GRAPHIC DESIGN", "ARCHITECTURE", "PHOTOGRAPHY", "ILLUSTRATION", "ANIMATION", "FASHION", "FILM", "INTERIOR DESIGN"]
+      },
+      {
+        "name": "CREATIVE CAREERS",
+        "words": ["DESIGNER", "ARTIST", "WRITER", "EDITOR", "DIRECTOR", "PRODUCER", "PHOTOGRAPHER", "ANIMATOR", "CURATOR"]
+      },
+      {
+        "name": "HUMANITIES & SOCIAL SCIENCE MAJORS",
+        "words": ["HISTORY", "SOCIOLOGY", "PSYCHOLOGY", "LINGUISTICS", "ANTHROPOLOGY", "PHILOSOPHY", "POLITICAL SCIENCE", "COMMUNICATIONS"]
+      },
+      {
+        "name": "MEDIA & JOURNALISM ROLES",
+        "words": ["JOURNALIST", "REPORTER", "ANCHOR", "EDITOR", "COLUMNIST", "PRODUCER", "CORRESPONDENT", "BROADCASTER"]
+      },
+      {
+        "name": "FILMMAKING TERMS",
+        "words": ["SCRIPT", "SCENE", "SHOT", "FRAME", "EDIT", "SOUND", "LIGHTING", "PLOT", "CHARACTER", "DIRECTOR"]
+      },
+      {
+        "name": "TYPES OF WRITING",
+        "words": ["FICTION", "NONFICTION", "POETRY", "DRAMA", "JOURNALISM", "COPYWRITING", "ACADEMIC", "TECHNICAL", "SCRIPTWRITING"]
+      },
+      {
+        "name": "MUSICAL ROLES",
+        "words": ["COMPOSER", "CONDUCTOR", "SINGER", "PIANIST", "GUITARIST", "DRUMMER", "VIOLINIST", "PRODUCER", "VOCALIST"]
+      },
+      {
+        "name": "BASIC DESIGN PRINCIPLES",
+        "words": ["BALANCE", "CONTRAST", "HIERARCHY", "REPETITION", "PROXIMITY", "ALIGNMENT", "SPACE", "COLOR", "TYPOGRAPHY"]
+      }
+    ]
+  },
+  {
+    "id": "health_and_medicine_1",
+    "categories": [
+      {
+        "name": "HEALTH SCIENCE MAJORS",
+        "words": ["NURSING", "PRE-MED", "KINESIOLOGY", "NUTRITION", "PHARMACY", "PUBLIC HEALTH", "PHYSIOTHERAPY", "DENTISTRY"]
+      },
+      {
+        "name": "MEDICAL SPECIALTIES",
+        "words": ["CARDIOLOGY", "DERMATOLOGY", "PEDIATRICS", "ONCOLOGY", "NEUROLOGY", "RADIOLOGY", "SURGERY", "PSYCHIATRY"]
+      },
+      {
+        "name": "HOSPITAL & CLINIC ROLES",
+        "words": ["NURSE", "DOCTOR", "SURGEON", "THERAPIST", "TECHNICIAN", "PARAMEDIC", "PHARMACIST", "RADIOLOGIST", "SPECIALIST"]
+      },
+      {
+        "name": "UNIVERSITY PRE-MED COURSES",
+        "words": ["BIOLOGY", "CHEMISTRY", "PHYSICS", "ORGANIC CHEMISTRY", "BIOCHEMISTRY", "GENETICS", "CALCULUS", "STATISTICS"]
+      },
+      {
+        "name": "TYPES OF THERAPISTS",
+        "words": ["PHYSICAL", "OCCUPATIONAL", "SPEECH", "MENTAL HEALTH", "RESPIRATORY", "MASSAGE", "ART", "MUSIC"]
+      },
+      {
+        "name": "MEDICAL IMAGING TECHNIQUES",
+        "words": ["X-RAY", "ULTRASOUND", "MRI", "CT SCAN", "PET SCAN", "MAMMOGRAM", "ECHOCARDIOGRAM"]
+      },
+      {
+        "name": "TERMS FOR UNIVERSITY LIFE",
+        "words": ["MAJOR", "MINOR", "CREDIT", "DORM", "CAMPUS", "LECTURE", "SEMINAR", "SYLLABUS", "DEAN", "SCHOLARSHIP"]
+      },
+      {
+        "name": "BONES IN THE HUMAN BODY",
+        "words": ["FEMUR", "TIBIA", "FIBULA", "HUMERUS", "RADIUS", "ULNA", "SKULL", "SPINE", "PELVIS", "RIBS"]
       }
     ]
   }

@@ -17,7 +17,7 @@ export default function LeftPanel({ onSubmit }) {
       </div>
       <div className="action-buttons">
         <button className="submit-button" onClick={onSubmit}>
-          SUBMIT?
+          SUBMIT
         </button>
         <button className="hint-button">NEED A HINT?</button>
       </div>

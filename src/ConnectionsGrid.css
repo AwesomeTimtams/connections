@@ -1,3 +1,5 @@
+/* src/components/ConnectionsGrid.css */
+
 .connections-grid-container {
   display: flex;
   flex-direction: column;
@@ -28,6 +30,7 @@
 
 .heart {
   font-size: 1.5rem;
+  color: red;
 }
 
 .timer {
@@ -35,10 +38,52 @@
   align-items: center;
 }
 
+.message-bar {
+  min-height: 24px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* --- NEW: STYLES FOR THE SOLVED GROUP BOXES --- */
+.solved-groups-container {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.solved-group {
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.solved-group-name {
+  font-weight: 800;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+.solved-group-words {
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+/* --- BOARD AND TILE STYLES --- */
+
 .board {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 80px);
+  grid-template-rows: repeat(auto-fill, 80px); /* Use auto-fill for flexible rows */
   gap: 15px;
   width: 100%;
   max-width: 600px;
@@ -68,68 +113,24 @@
   transform: scale(1.05);
 }
 
-.tile.locked {
-  background-color: #d4edda;
-  color: #155724;
-  cursor: default;
+/* --- UPDATED: SHARED COLORS FOR SOLVED GROUPS AND LOCKED TILES --- */
+
+.solved-group.color-0 {
+  background-color: #fefcbf; /* Bright Yellow */
+  color: #5d5b00;
 }
 
-/* --- ADDED MESSAGE BAR STYLE --- */
-.message-bar {
-  min-height: 24px;
-  font-size: 1.1rem;
-  font-weight: bold;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.board {
-  /* ... (existing board styles) ... */
-}
-
-.tile {
-  /* ... (existing tile styles) ... */
-}
-
-.tile:hover {
-  /* ... (existing hover styles) ... */
-}
-
-.tile.selected {
-  background-color: #4c9aff;
-  color: white;
-  transform: scale(1.05);
-}
-
-/* --- CSS CHANGES HERE --- */
-
-/* Generic style for any locked tile (e.g., non-clickable) */
-.tile.locked {
-  cursor: default;
-  transform: scale(1); /* Optional: disable hover grow effect */
-}
-
-.tile.locked:hover {
-    transform: scale(1); /* Ensure it doesn't grow on hover */
-}
-
-/* The four unique colors for the solved groups */
-.tile.locked.color-0 {
+.solved-group.color-1 {
   background-color: #c6f6c6; /* Soft Green */
   color: #1f5f1f;
 }
 
-.tile.locked.color-1 {
+.solved-group.color-2 {
   background-color: #cbe1f7; /* Soft Blue */
   color: #1c3d75;
 }
 
-.tile.locked.color-2 {
-  background-color: #fffacc; /* Soft Yellow */
-  color: #7a6d00;
-}
-
-.tile.locked.color-3 {
+.solved-group.color-3 {
   background-color: #f7d4d4; /* Soft Red */
   color: #721c24;
 }
