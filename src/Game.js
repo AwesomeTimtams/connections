@@ -120,6 +120,20 @@ export default function Game() {
   const [seconds, setSeconds] = useState(0);
   const timerRef = useRef(null);
 
+  useEffect(() => {
+    timerRef.current = setInterval(() => {
+      setSeconds((s) => s + 1);
+    }, 1000);
+    return () => clearInterval(timerRef.current);
+  }, []);
+  
+  // Stop timer on game over
+  useEffect(() => {
+    if (isGameOver) {
+      clearInterval(timerRef.current);
+    }
+  }, [isGameOver]);
+
   // --- LOGIC CHANGE IN checkGroup ---
   const checkGroup = () => {
     if (selected.length !== 4 || isGameOver) return;
