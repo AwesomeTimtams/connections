@@ -20,7 +20,7 @@ export default function Leaderboard() {
         {leaderboardData.map(entry => (
           <li key={entry.rank} className="leaderboard-entry">
             <div className={`rank-badge rank-${entry.rank}`}>{entry.rank}</div>
-            <div className="player-avatar"></div>
+            <img className="player-avatar" src={pfp} alt="pfp"></img>
             <div className="player-info">
               <span className="player-name">{entry.name}</span>
               <span className="player-school">{entry.school}</span>
