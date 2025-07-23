@@ -10,9 +10,7 @@ const leaderboardData = [
 export default function Leaderboard() {
   return (
     <div className="leaderboard sideboxes">
-      <h2 className="leaderboard-title">
-        <span className="leaderboard-icon">🏆</span> Leaderboard
-      </h2>
+      <h2 className="leaderboard-title">Leaderboard</h2>
       <ul className="leaderboard-list">
         {leaderboardData.map(entry => (
           <li key={entry.rank} className="leaderboard-entry">
