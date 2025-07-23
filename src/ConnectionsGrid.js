@@ -12,7 +12,10 @@ export default function ConnectionsGrid({ words, selected, locked, onSelect, liv
     <div className="connections-grid-container">
       <h1 className="game-title">CAREER CONNECTION</h1>
       <div className="stats-bar">
-        {/* ... (lives and timer divs remain the same) ... */}
+        <div className="lives">
+          LIVES: {Array.from({ length: lives }).map((_, i) => <Heart key={i} />)}
+        </div>
+        <div className="timer">TIME: {time}</div>
       </div>
 
       {/* --- ADDED MESSAGE DISPLAY --- */}
