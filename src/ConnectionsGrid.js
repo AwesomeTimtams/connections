@@ -11,16 +11,13 @@ export default function ConnectionsGrid({ words, selected, locked, onSelect, liv
   return (
     <div className="connections-grid-container">
       <h1 className="game-title">CAREER CONNECTION</h1>
+      <div className="message-bar">{message}</div>
       <div className="stats-bar">
         <div className="lives">
           LIVES: {Array.from({ length: lives }).map((_, i) => <Heart key={i} />)}
         </div>
         <div className="timer">TIME: {time}</div>
       </div>
-
-      {/* --- ADDED MESSAGE DISPLAY --- */}
-      <div className="message-bar">{message}</div>
-
       <div className="board">
         {words.map((word) => {
           // --- LOGIC CHANGE HERE ---
