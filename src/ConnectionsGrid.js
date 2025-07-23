@@ -1,27 +1,37 @@
+// src/components/ConnectionsGrid.js
+
 import React from "react";
 import "./ConnectionsGrid.css";
 
 const Heart = () => <span className="heart">❤️</span>;
 
-export default function ConnectionsGrid({ words, selected, locked, onSelect, lives, seconds }) {
+export default function ConnectionsGrid({ words, selected, locked, onSelect, lives, seconds, message }) {
   const time = new Date(seconds * 1000).toISOString().substr(14, 5);
 
   return (
     <div className="connections-grid-container">
       <h1 className="game-title">CAREER CONNECTION</h1>
       <div className="stats-bar">
-        <div className="lives">
-          LIVES: {Array.from({ length: lives }).map((_, i) => <Heart key={i} />)}
-        </div>
-        <div className="timer">TIME: {time}</div>
+        {/* ... (lives and timer divs remain the same) ... */}
       </div>
+
+      {/* --- ADDED MESSAGE DISPLAY --- */}
+      <div className="message-bar">{message}</div>
+
       <div className="board">
         {words.map((word) => {
+          // --- LOGIC CHANGE HERE ---
+          const lockedInfo = locked[word];
+          const isLocked = !!lockedInfo;
           const isSelected = selected.includes(word);
-          const isLocked = locked.includes(word);
+
           let className = "tile";
-          if (isLocked) className += " locked";
-          else if (isSelected) className += " selected";
+          if (isLocked) {
+            // Apply both 'locked' and the specific color class (e.g., 'color-0')
+            className += ` locked ${lockedInfo.className}`;
+          } else if (isSelected) {
+            className += " selected";
+          }
 
           return (
             <div

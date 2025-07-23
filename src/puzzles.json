@@ -1,316 +1,59 @@
 [
   {
-    "id": 1,
-    "groups": [
+    "id": "university_and_professions_1",
+    "categories": [
       {
         "name": "MEDICAL PROFESSIONS",
-        "words": ["SURGEON", "NURSE", "DOCTOR", "PSYCHOLOGIST"]
+        "words": ["SURGEON", "NURSE", "DOCTOR", "PARAMEDIC", "PSYCHOLOGIST", "DENTIST", "OPTOMETRIST"]
       },
       {
         "name": "ACADEMIC DEGREES",
-        "words": ["BACHELOR", "MASTERS", "DOCTORATE", "ASSOCIATE"]
+        "words": ["BACHELOR", "MASTERS", "DOCTORATE", "ASSOCIATE", "PHD", "MBA"]
       },
       {
         "name": "EDUCATIONAL ROLES",
-        "words": ["TUTOR", "LECTURER", "PROFESSOR", "DEAN"]
+        "words": ["TUTOR", "LECTURER", "PROFESSOR", "DEAN", "TEACHER", "ADVISOR", "PROVOST"]
       },
       {
         "name": "CONSTRUCTION TRADES",
-        "words": ["PLUMBER", "ELECTRICIAN", "CARPENTER", "MASON"]
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "groups": [
+        "words": ["PLUMBER", "ELECTRICIAN", "CARPENTER", "MASON", "WELDER", "PAINTER"]
+      },
       {
         "name": "LEGAL CAREERS",
-        "words": ["JUDGE", "LAWYER", "PARALEGAL", "ATTORNEY"]
-      },
-      {
-        "name": "BUSINESS DEPARTMENTS",
-        "words": ["MARKETING", "FINANCE", "SALES", "OPERATIONS"]
-      },
-      {
-        "name": "ENGINEERING FIELDS",
-        "words": ["MECHANICAL", "CIVIL", "SOFTWARE", "CHEMICAL"]
-      },
-      {
-        "name": "EMERGENCY SERVICES",
-        "words": ["PARAMEDIC", "FIREFIGHTER", "POLICE", "DISPATCHER"]
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "groups": [
-      {
-        "name": "CREATIVE PROFESSIONS",
-        "words": ["DESIGNER", "WRITER", "PAINTER", "MUSICIAN"]
+        "words": ["JUDGE", "LAWYER", "PARALEGAL", "ATTORNEY", "PROSECUTOR", "SOLICITOR"]
       },
       {
         "name": "FINANCIAL ROLES",
-        "words": ["ACCOUNTANT", "AUDITOR", "ANALYST", "BANKER"]
-      },
-      {
-        "name": "UNIVERSITY MAJORS",
-        "words": ["HISTORY", "BIOLOGY", "PHYSICS", "LITERATURE"]
-      },
-      {
-        "name": "THINGS FOUND IN AN OFFICE",
-        "words": ["STAPLER", "PRINTER", "MONITOR", "KEYBOARD"]
+        "words": ["ACCOUNTANT", "AUDITOR", "ANALYST", "BANKER", "TRADER", "BROKER"]
       }
     ]
   },
   {
-    "id": 4,
-    "groups": [
+    "id": "university_and_professions_2",
+    "categories": [
       {
-        "name": "TYPES OF SCIENTISTS",
-        "words": ["GEOLOGIST", "ASTRONOMER", "CHEMIST", "BOTANIST"]
+        "name": "ENGINEERING FIELDS",
+        "words": ["MECHANICAL", "CIVIL", "SOFTWARE", "CHEMICAL", "AEROSPACE", "ELECTRICAL", "BIOMEDICAL"]
       },
-      {
-        "name": "HOSPITAL UNITS",
-        "words": ["RADIOLOGY", "ONCOLOGY", "CARDIOLOGY", "NEUROLOGY"]
-      },
-      {
-        "name": "CULINARY JOBS",
-        "words": ["CHEF", "SOUS-CHEF", "PASTRY-CHEF", "SOMMELIER"]
-      },
-      {
-        "name": "ACADEMIC TITLES",
-        "words": ["FELLOW", "SCHOLAR", "ASSISTANT", "CHAIR"]
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "groups": [
       {
         "name": "TERMS IN ACADEMIA",
-        "words": ["TENURE", "SYLLABUS", "THESIS", "SEMESTER"]
+        "words": ["TENURE", "SYLLABUS", "THESIS", "SEMESTER", "DISSERTATION", "CREDIT", "MAJOR"]
+      },
+      {
+        "name": "CREATIVE PROFESSIONS",
+        "words": ["DESIGNER", "WRITER", "PAINTER", "MUSICIAN", "ACTOR", "DIRECTOR", "PHOTOGRAPHER"]
       },
       {
         "name": "IT SPECIALIZATIONS",
-        "words": ["DATABASE", "NETWORK", "SECURITY", "CLOUD"]
-      },
-      {
-        "name": "FARMING AND AGRICULTURE ROLES",
-        "words": ["FARMER", "RANCHER", "AGRONOMIST", "BEEKEEPER"]
-      },
-      {
-        "name": "GOVERNMENT POSITIONS",
-        "words": ["DIPLOMAT", "SENATOR", "MAYOR", "AMBASSADOR"]
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "groups": [
-      {
-        "name": "FILM CREW ROLES",
-        "words": ["DIRECTOR", "PRODUCER", "GAFFER", "GRIP"]
-      },
-      {
-        "name": "TYPES OF THERAPISTS",
-        "words": ["PHYSICAL", "OCCUPATIONAL", "SPEECH", "MARRIAGE"]
-      },
-      {
-        "name": "BRANCHES OF MATHEMATICS",
-        "words": ["ALGEBRA", "GEOMETRY", "CALCULUS", "STATISTICS"]
-      },
-      {
-        "name": "JOURNALISM JOBS",
-        "words": ["EDITOR", "REPORTER", "COLUMNIST", "ANCHOR"]
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "groups": [
-      {
-        "name": "ROLES IN A COURTROOM",
-        "words": ["JURY", "BAILIFF", "STENOGRAPHER", "CLERK"]
+        "words": ["DATABASE", "NETWORK", "SECURITY", "CLOUD", "DEVOPS", "FRONTEND", "BACKEND"]
       },
       {
         "name": "SOCIAL SCIENCE FIELDS",
-        "words": ["SOCIOLOGY", "ANTHROPOLOGY", "ECONOMICS", "POLITICAL"]
+        "words": ["SOCIOLOGY", "ANTHROPOLOGY", "ECONOMICS", "POLITICAL", "GEOGRAPHY", "LINGUISTICS"]
       },
       {
-        "name": "ART-RELATED CAREERS",
-        "words": ["CURATOR", "ARCHIVIST", "CONSERVATOR", "AUCTIONEER"]
-      },
-      {
-        "name": "TYPES OF ENGINEERS",
-        "words": ["AEROSPACE", "BIOMEDICAL", "ENVIRONMENTAL", "INDUSTRIAL"]
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "groups": [
-      {
-        "name": "FINANCIAL DOCUMENTS",
-        "words": ["INVOICE", "RECEIPT", "LEDGER", "STATEMENT"]
-      },
-      {
-        "name": "UNIVERSITY ADMISSIONS TERMS",
-        "words": ["TRANSCRIPT", "ESSAY", "APPLICATION", "RECOMMENDATION"]
-      },
-      {
-        "name": "MARITIME PROFESSIONS",
-        "words": ["CAPTAIN", "SAILOR", "DIVER", "NAVIGATOR"]
-      },
-      {
-        "name": "SOFTWARE DEVELOPMENT ROLES",
-        "words": ["FRONTEND", "BACKEND", "DEVOPS", "QA"]
-      }
-    ]
-  },
-  {
-    "id": 9,
-    "groups": [
-      {
-        "name": "JOBS IN PUBLISHING",
-        "words": ["AGENT", "SCOUT", "PUBLICIST", "PROOFREADER"]
-      },
-      {
-        "name": "VETERINARY SPECIALTIES",
-        "words": ["EQUINE", "FELINE", "CANINE", "EXOTIC"]
-      },
-      {
-        "name": "ACADEMIC DISCIPLINES",
-        "words": ["HUMANITIES", "SCIENCES", "ARTS", "PHILOSOPHY"]
-      },
-      {
-        "name": "JOBS REQUIRING A LICENSE",
-        "words": ["PILOT", "REALTOR", "BARBER", "ARCHITECT"]
-      }
-    ]
-  },
-  {
-    "id": 10,
-    "groups": [
-      {
-        "name": "CORPORATE HIERARCHY",
-        "words": ["INTERN", "ASSOCIATE", "MANAGER", "DIRECTOR"]
-      },
-      {
-        "name": "ELECTRICAL COMPONENTS (CAREER KNOWLEDGE)",
-        "words": ["RESISTOR", "CAPACITOR", "TRANSISTOR", "DIODE"]
-      },
-      {
-        "name": "JOBS IN AVIATION",
-        "words": ["CONTROLLER", "MECHANIC", "ATTENDANT", "BAGGAGE"]
-      },
-      {
-        "name": "PHASES OF A PROJECT",
-        "words": ["INITIATION", "PLANNING", "EXECUTION", "CLOSURE"]
-      }
-    ]
-  },
-  {
-    "id": 11,
-    "groups": [
-      {
-        "name": "SKILLED TRADES",
-        "words": ["WELDER", "MACHINIST", "TOOLMAKER", "TECHNICIAN"]
-      },
-      {
-        "name": "ROLES IN A RESTAURANT (NON-CULINARY)",
-        "words": ["HOST", "SERVER", "BUSSER", "BARTENDER"]
-      },
-      {
-        "name": "UNIVERSITY FACILITIES",
-        "words": ["LIBRARY", "LABORATORY", "LECTURE-HALL", "DORMITORY"]
-      },
-      {
-        "name": "HR & RECRUITING TERMS",
-        "words": ["ONBOARDING", "SOURCING", "INTERVIEW", "OFFER"]
-      }
-    ]
-  },
-  {
-    "id": 12,
-    "groups": [
-      {
-        "name": "TYPES OF WRITERS",
-        "words": ["NOVELIST", "POET", "PLAYWRIGHT", "JOURNALIST"]
-      },
-      {
-        "name": "DESIGN SPECIALIZATIONS",
-        "words": ["GRAPHIC", "INDUSTRIAL", "FASHION", "INTERIOR"]
-      },
-      {
-        "name": "LEGAL SPECIALIZATIONS",
-        "words": ["CRIMINAL", "CORPORATE", "FAMILY", "PATENT"]
-      },
-      {
-        "name": "TERMS RELATED TO PAY",
-        "words": ["SALARY", "WAGE", "BONUS", "COMMISSION"]
-      }
-    ]
-  },
-  {
-    "id": 13,
-    "groups": [
-      {
-        "name": "GEOGRAPHICAL PROFESSIONS",
-        "words": ["CARTOGRAPHER", "SURVEYOR", "METEOROLOGIST", "OCEANOGRAPHER"]
-      },
-      {
-        "name": "JOBS AT A MUSEUM",
-        "words": ["DOCENT", "REGISTRAR", "EXHIBIT-DESIGNER", "EDUCATOR"]
-      },
-      {
-        "name": "TYPES OF SCIENTIFIC RESEARCH",
-        "words": ["QUALITATIVE", "QUANTITATIVE", "EXPERIMENTAL", "LONGITUDINAL"]
-      },
-      {
-        "name": "MANAGEMENT STYLES",
-        "words": ["AUTOCRATIC", "DEMOCRATIC", "LAISSEZ-FAIRE", "TRANSFORMATIONAL"]
-      }
-    ]
-  },
-  {
-    "id": 14,
-    "groups": [
-      {
-        "name": "ROLES IN A STARTUP",
-        "words": ["FOUNDER", "INVESTOR", "ADVISOR", "DEVELOPER"]
-      },
-      {
-        "name": "MARKETING CONCEPTS",
-        "words": ["BRAND", "SEO", "LEAD", "CAMPAIGN"]
-      },
-      {
-        "name": "MEDICAL IMAGING TECHNIQUES",
-        "words": ["X-RAY", "MRI", "ULTRASOUND", "CT-SCAN"]
-      },
-      {
-        "name": "PARTS OF A PhD PROGRAM",
-        "words": ["COURSEWORK", "QUALIFIERS", "DISSERTATION", "DEFENSE"]
-      }
-    ]
-  },
-  {
-    "id": 15,
-    "groups": [
-      {
-        "name": "FIELDS OF PSYCHOLOGY",
-        "words": ["COGNITIVE", "DEVELOPMENTAL", "SOCIAL", "CLINICAL"]
-      },
-      {
-        "name": "JOBS IN THE SPACE INDUSTRY",
-        "words": ["ASTRONAUT", "ENGINEER", "SCIENTIST", "TECHNICIAN"]
-      },
-      {
-        "name": "TYPES OF ACADEMIC PUBLICATION",
-        "words": ["PAPER", "JOURNAL", "MONOGRAPH", "REVIEW"]
-      },
-      {
-        "name": "ROLES IN REAL ESTATE",
-        "words": ["AGENT", "BROKER", "APPRAISER", "INSPECTOR"]
+        "name": "EMERGENCY SERVICES",
+        "words": ["PARAMEDIC", "FIREFIGHTER", "POLICE", "DISPATCHER", "SERGEANT", "DETECTIVE"]
       }
     ]
   }

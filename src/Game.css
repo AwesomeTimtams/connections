@@ -1,3 +1,37 @@
+/* src/components/Game.css */
+
+body {
+  /* Basic body styles for the background */
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8; /* Light grey background from Figma */
+  color: #333;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* 
+ * This is the most important part for the layout.
+ * We define a grid with 3 columns.
+ * - The first column (Left Panel) is fixed at 280px.
+ * - The third column (Leaderboard) is also fixed at 280px.
+ * - The middle column (Game Grid) takes up the remaining space (1fr).
+*/
+.game-main {
+  display: grid;
+  grid-template-columns: 280px 1fr 280px; /* 3-column layout */
+  gap: 30px;                             /* Space between columns */
+  padding: 20px;
+  width: 100%;
+  max-width: 1400px; /* Optional: sets a max width for very large screens */
+  margin: 0 auto;    /* Centers the layout horizontally */
+  box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
 .connections-grid-container {
   display: flex;
   flex-direction: column;

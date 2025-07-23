@@ -73,3 +73,63 @@
   color: #155724;
   cursor: default;
 }
+
+/* --- ADDED MESSAGE BAR STYLE --- */
+.message-bar {
+  min-height: 24px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.board {
+  /* ... (existing board styles) ... */
+}
+
+.tile {
+  /* ... (existing tile styles) ... */
+}
+
+.tile:hover {
+  /* ... (existing hover styles) ... */
+}
+
+.tile.selected {
+  background-color: #4c9aff;
+  color: white;
+  transform: scale(1.05);
+}
+
+/* --- CSS CHANGES HERE --- */
+
+/* Generic style for any locked tile (e.g., non-clickable) */
+.tile.locked {
+  cursor: default;
+  transform: scale(1); /* Optional: disable hover grow effect */
+}
+
+.tile.locked:hover {
+    transform: scale(1); /* Ensure it doesn't grow on hover */
+}
+
+/* The four unique colors for the solved groups */
+.tile.locked.color-0 {
+  background-color: #c6f6c6; /* Soft Green */
+  color: #1f5f1f;
+}
+
+.tile.locked.color-1 {
+  background-color: #cbe1f7; /* Soft Blue */
+  color: #1c3d75;
+}
+
+.tile.locked.color-2 {
+  background-color: #fffacc; /* Soft Yellow */
+  color: #7a6d00;
+}
+
+.tile.locked.color-3 {
+  background-color: #f7d4d4; /* Soft Red */
+  color: #721c24;
+}
