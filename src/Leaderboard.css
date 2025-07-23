@@ -64,10 +64,11 @@
 
 .player-name {
   font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .player-school {
-  font-size: 0.85rem;
+  font-size: 1.2rem;
   color: #6c757d;
 }
 
@@ -75,6 +76,28 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  font-size: 0.8rem;
+  font-size: 1.5rem;
   color: #495057;
+}
+
+.lb_title_div {
+    background-color: #1B56BA;
+    border-radius: 7.81px;
+    width: 260px;
+    height: 54.7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.lb_title {
+    color: white;
+    font-size: 31px;
+}
+
+.podium {
+    width: 60px;
+    height: 60px;
+    margin-left: -20px;
 }
