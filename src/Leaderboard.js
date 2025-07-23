@@ -9,7 +9,7 @@ const leaderboardData = [
 
 export default function Leaderboard() {
   return (
-    <aside className="leaderboard">
+    <div className="leaderboard sideboxes">
       <h2 className="leaderboard-title">
         <span className="leaderboard-icon">🏆</span> Leaderboard
       </h2>
@@ -29,6 +29,6 @@ export default function Leaderboard() {
           </li>
         ))}
       </ul>
-    </aside>
+    </div>
   );
 }

@@ -3,7 +3,7 @@ import "./LeftPanel.css";
 
 export default function LeftPanel({ onSubmit }) {
   return (
-    <aside className="left-panel">
+    <div className="left-panel sideboxes">
       <div className="game-modes">
         <button className="mode-button active">
           <span className="mode-icon">🗓️</span> DAILY PUZZLE
@@ -21,6 +21,6 @@ export default function LeftPanel({ onSubmit }) {
         </button>
         <button className="hint-button">NEED A HINT?</button>
       </div>
-    </aside>
+    </div>
   );
 }
