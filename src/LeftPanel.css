@@ -15,7 +15,7 @@
   border-radius: 12px;
   border: none;
   text-align: left;
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: bold;
   cursor: pointer;
   background-color: transparent;
@@ -36,7 +36,7 @@
 }
 
 .mode-icon {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .action-buttons {
@@ -51,8 +51,8 @@
   padding: 15px;
   border-radius: 12px;
   border: none;
-  font-size: 1rem;
-  font-weight: bold;
+  font-size: 2rem;
+  font-weight: lighter;
   cursor: pointer;
   transition: background-color 0.2s;
 }
@@ -60,6 +60,8 @@
 .submit-button {
   background-color: #0052cc;
   color: white;
+  letter-spacing: 0.05em;
+  font-weight: lighter;
 }
 
 .submit-button:hover {
@@ -73,4 +75,8 @@
 
 .hint-button:hover {
   background-color: #dee2e6;
+}
+
+.spacer {
+  height: 30vh;
 }

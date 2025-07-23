@@ -1,9 +1,14 @@
 /* src/components/Game.css */
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+p {
+    font-family: 'Lilita One', sans-serif;  
+}
 
 body {
   /* Basic body styles for the background */
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Lilita One', sans-serif;  
   background-color: #f4f6f8; /* Light grey background from Figma */
   color: #333;
 }
@@ -14,6 +19,7 @@ body {
   min-height: 100vh;
 }
 
+
 /* 
  * This is the most important part for the layout.
  * We define a grid with 3 columns.
@@ -22,27 +28,20 @@ body {
  * - The middle column (Game Grid) takes up the remaining space (1fr).
 */
 .game-main {
-  display: grid;
-  grid-template-columns: 280px 1fr 280px; /* 3-column layout */
+  display: flex;
   gap: 30px;                             /* Space between columns */
   padding: 20px;
   width: 100%;
-  max-width: 1400px; /* Optional: sets a max width for very large screens */
   margin: 0 auto;    /* Centers the layout horizontally */
   box-sizing: border-box; /* Ensures padding is included in the width */
+  justify-content: center;
 }
 
 .connections-grid-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
-
-.game-title {
-  font-size: 2.5rem;
-  font-weight: 800;
-  color: #0052cc;
-  margin: 0 0 15px 0;
+  width: 1200px;
+  padding: 0px;
 }
 
 .stats-bar {
@@ -69,13 +68,14 @@ body {
   align-items: center;
 }
 
+
 .board {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 80px);
+  grid-template-rows: repeat(4, 14vh);
   gap: 15px;
-  width: 100%;
-  max-width: 600px;
+  width: 90%;
+  box-sizing: border-box;
 }
 
 .tile {
@@ -84,8 +84,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: bold;
-  font-size: 1rem;
   text-transform: uppercase;
   cursor: pointer;
   user-select: none;
@@ -106,4 +104,14 @@ body {
   background-color: #d4edda;
   color: #155724;
   cursor: default;
+}
+
+.sideboxes {
+    width: 20vw;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #A8A8A8;
+    border-width: 1px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
 }

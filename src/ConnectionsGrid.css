@@ -7,7 +7,7 @@
 }
 
 .game-title {
-  font-size: 2.5rem;
+  font-size: 4rem;
   font-weight: 800;
   color: #0052cc;
   margin: 0 0 15px 0;
@@ -26,6 +26,7 @@
   display: flex;
   align-items: center;
   gap: 5px;
+  font-size: 1.5em;
 }
 
 .heart {
@@ -87,6 +88,7 @@
   gap: 15px;
   width: 100%;
   max-width: 600px;
+  font-size: 1.5em;
 }
 
 .tile {
@@ -95,8 +97,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.8rem;
+  letter-spacing: 0.02em;
+  font-weight: lighter;
   text-transform: uppercase;
   cursor: pointer;
   user-select: none;
@@ -121,6 +124,46 @@
 }
 
 .solved-group.color-1 {
+/* --- ADDED MESSAGE BAR STYLE --- */
+.message-bar {
+  min-height: 24px;
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+}
+.board {
+  /* ... (existing board styles) ... */
+}
+
+.tile {
+  /* ... (existing tile styles) ... */
+}
+
+.tile:hover {
+  /* ... (existing hover styles) ... */
+}
+
+.tile.selected {
+  background-color: #4c9aff;
+  color: white;
+  transform: scale(1.05);
+}
+
+/* --- CSS CHANGES HERE --- */
+
+/* Generic style for any locked tile (e.g., non-clickable) */
+.tile.locked {
+  cursor: default;
+  transform: scale(1); /* Optional: disable hover grow effect */
+}
+
+.tile.locked:hover {
+    transform: scale(1); /* Ensure it doesn't grow on hover */
+}
+
+/* The four unique colors for the solved groups */
+.tile.locked.color-0 {
   background-color: #c6f6c6; /* Soft Green */
   color: #1f5f1f;
 }
