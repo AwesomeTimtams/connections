@@ -1,23 +1,18 @@
-.leaderboard {
-  background-color: white;
-  border-radius: 16px;
-  padding: 20px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+.leaderboard-title-container {
+  background-color: #1B56BA;
+  border-radius: 7.81px;
+  width: 100%; /* Make it responsive */
+  max-width: 260px; /* But don't let it get too big */
+  height: 54.7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px auto; /* Center the title container */
 }
 
 .leaderboard-title {
-  margin: 0 0 20px 0;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #eee;
-  font-size: 1.2rem;
-  color: #0052cc;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.leaderboard-icon {
-  font-size: 2rem;
+  color: white;
+  font-size: clamp(1.5rem, 4vw, 1.9rem); /* Responsive font size */
 }
 
 .leaderboard-list {
@@ -36,8 +31,9 @@
 }
 
 .rank-badge {
-  width: 50px;
-  height: 50px;
+  width: 40px; /* Slightly smaller for flexibility */
+  height: 40px;
+  flex-shrink: 0; /* Prevent badge from shrinking */
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -52,6 +48,7 @@
 .player-avatar {
   width: 50px;
   height: 50px;
+  flex-shrink: 0; /* Prevent avatar from shrinking */
   border-radius: 50%;
   background-color: #ccc; /* Placeholder */
 }
@@ -60,44 +57,29 @@
   flex-grow: 1;
   display: flex;
   flex-direction: column;
+  min-width: 0; /* Allow player info to shrink and wrap */
 }
 
 .player-name {
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  white-space: nowrap; /* Prevent ugly wrapping */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Add ... if name is too long */
 }
 
 .player-school {
-  font-size: 1.1rem;
+  font-size: clamp(0.8rem, 2vw, 1rem);
   color: #6c757d;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .player-stats {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  font-size: 1.5rem;
+  font-size: clamp(0.9rem, 2.2vw, 1.1rem);
   color: #495057;
-}
-
-.lb_title_div {
-    background-color: #1B56BA;
-    border-radius: 7.81px;
-    width: 260px;
-    height: 54.7px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
-.lb_title {
-    color: white;
-    font-size: 31px;
-}
-
-.podium {
-    width: 60px;
-    height: 60px;
-    margin-left: -20px;
 }

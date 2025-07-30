@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import confetti from "canvas-confetti";
+// import confetti from "canvas-confetti";
 import puzzlesData from "./puzzles.json";
 import Header from "./Header";
 import LeftPanel from "./LeftPanel";
@@ -65,7 +65,7 @@ function generatePuzzle() {
 
 const GROUP_COLOR_CLASSES = ['color-0', 'color-1', 'color-2', 'color-3'];
 
-export default function Game() {
+export default function CareerConnections() {
   const [puzzle, setPuzzle] = useState(generatePuzzle);
   const [words, setWords] = useState(() => shuffle(puzzle.groups.flatMap(g => g.words)));
   const [selected, setSelected] = useState([]);
@@ -123,7 +123,7 @@ export default function Game() {
       if (newGroupsFound === 4) {
         setMessage("🎉 You found all groups!");
         setIsGameOver(true);
-        confetti();
+        // confetti();
       }
     } else {
       setLives(l => l - 1);

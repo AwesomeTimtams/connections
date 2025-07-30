@@ -1,9 +1,4 @@
-
 .left-panel {
-  background-color: white;
-  border-radius: 16px;
-  padding: 20px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   gap: 25px;
@@ -15,7 +10,7 @@
   border-radius: 12px;
   border: none;
   text-align: left;
-  font-size: 2rem;
+  font-size: clamp(1.2rem, 3vw, 2rem); /* Responsive font size */
   font-weight: bold;
   cursor: pointer;
   background-color: transparent;
@@ -36,7 +31,7 @@
 }
 
 .mode-icon {
-  font-size: 2rem;
+  font-size: clamp(1.5rem, 3vw, 2rem); /* Responsive font size */
 }
 
 .action-buttons {
@@ -51,8 +46,8 @@
   padding: 15px;
   border-radius: 12px;
   border: none;
-  font-size: 2rem;
-  font-weight: lighter;
+  font-size: clamp(1.2rem, 3vw, 2rem); /* Responsive font size */
+  font-weight: bold;
   cursor: pointer;
   transition: background-color 0.2s;
 }
@@ -61,7 +56,6 @@
   background-color: #0052cc;
   color: white;
   letter-spacing: 0.05em;
-  font-weight: lighter;
 }
 
 .submit-button:hover {
@@ -77,6 +71,7 @@
   background-color: #dee2e6;
 }
 
+/* The spacer takes up too much room on mobile, reduce it */
 .spacer {
-  height: 30vh;
+  height: 15vh;
 }
